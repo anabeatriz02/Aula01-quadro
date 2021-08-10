@@ -1,0 +1,109 @@
+*{
+    margin: 0vw;
+    padding: 0vh;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aqua;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+form{
+    background-color: rgb(235, 243, 129);
+    display: grid;
+    /* grid-template-areas: ; */
+    padding: 100px;
+    gap: 80px;
+    box-shadow: 1px 1px 3px 3px rgb(240, 52, 6);
+}
+
+.acao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#somar{
+    padding: 15px;
+    width: 5vw;
+    background-color:rgb(117, 248, 128);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.somar{
+    box-shadow: 1px 1px 3px 3px rgb(28, 13, 243);
+}
+
+#subtrair{
+    padding: 15px;
+    background-color: rgb(117, 248, 128);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subtrair{
+    box-shadow: 1px 1px 3px 3px rgb(241, 143, 13);
+}
+
+#multiplicar{
+    padding: 15px;
+    background-color: rgb(117, 248, 128);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.multiplicar{
+    box-shadow: 1px 1px 3px 3px rgb(3, 230, 238);
+}
+
+#dividir{
+    padding: 15px; 
+    background-color: rgb(117, 248, 128);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dividir{
+    box-shadow: 1px 1px 3px 3px rgb(250, 5, 119);
+}
+
+.numero1{
+    font-size: 25px;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.numero2{
+    font-size: 25px;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado{
+    font-size: 25px;
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
